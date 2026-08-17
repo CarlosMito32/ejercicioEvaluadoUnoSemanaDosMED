@@ -26,10 +26,10 @@ public class EjercicioEvaluadoUnoSemanaDosMED {
 
         if (num1 == num2) {
             double suma = num1 + num2;
-            System.out.printf("Los números son iguales. La suma es: %.2f%n", suma);
+            System.out.print("Los números son iguales. La suma es: " + suma);
         } else {
             double producto = num1 * num2;
-            System.out.printf("Los números son diferentes. El producto es: %.2f%n", producto);
+            System.out.print("Los números son diferentes. El producto es: " + producto);
         }
 
         scanner.close();
